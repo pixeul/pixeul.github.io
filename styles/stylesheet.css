@@ -11,6 +11,7 @@ body {
 header h1 {
 	margin:0;
 	display: inline;
+	margin-bottom: 0;
 }
 
 
@@ -21,7 +22,7 @@ h1{
 	margin:100px;
 	color:#fff; 
 	text-decoration: none;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
 p{
