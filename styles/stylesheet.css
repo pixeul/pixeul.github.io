@@ -42,7 +42,7 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: powderblue;
+	background-color: #E6E6FA;
 	left: 10px; 
 	right: 10px
 }
@@ -87,7 +87,7 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: pink;
+	background-color: #FFB6C1;
 }
 .about_content{
 	padding-top: 20px;
@@ -103,7 +103,7 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: orange;
+	background-color: #d6e5ff;
 }
 
 .contact{
