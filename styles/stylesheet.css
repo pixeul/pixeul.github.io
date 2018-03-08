@@ -116,6 +116,21 @@ p{
 	background-color: bisque;
 }
 
+.twitch{
+	padding-top: 20px;
+	height: 100%;
+	background: blue;
+	margin-top: 0px;
+	width: 100%;
+	background-color: purple;
+}
+.twitch_content{
+	padding-top: 20px;
+	height: 100%;
+	margin-top: 0px;
+	width: 100%;
+}
+
 nav {
 	position: fixed;
 	width: 100%;
@@ -149,15 +164,6 @@ html {
 	margin: 30px;
 }
 
-.socials ul:hover li{
-	opacity:0.5;
-	transition: 0.5s;
-}
-
-.socials ul:hover li:hover{
-	opacity: 1;
-}
-
 .contacts ul{
 	margin: 0;
 	padding: 0;
@@ -174,5 +180,6 @@ html {
 
 .socials ul:hover li:hover{
 	opacity: 1;
-}
+
+
 
