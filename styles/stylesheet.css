@@ -11,9 +11,7 @@ body {
 header h1 {
 	margin:0;
 	display: inline;
-	margin-bottom: 0;
 }
-
 
 h1{
 	font-size: 100px;
@@ -23,13 +21,21 @@ h1{
 	color:#fff; 
 	text-decoration: none;
 	margin-bottom: 0px;
+
+}
+
+.twitch h1{
+	margin-top: 50px;
 }
 
 p{
 	font-size: 20px;
 	margin:100px;
-	margin-top:0px;
-	margin-bottom: 50px;
+	margin-top: 50px;
+	overflow: hidden;
+	/*
+	margin-top:10px;
+	margin-bottom: 50px*/
 }
 
 .section {
@@ -43,7 +49,7 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: #E6E6FA;
+	background-color: #d6e5ff;;
 	left: 10px; 
 	right: 10px
 }
@@ -55,33 +61,6 @@ p{
 	width: 100%;
 }
 
-/*------ Start of typewriter--------*/
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-	color: #fff;
-	font-family: monospace;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid orange; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	typing 5s steps(40, end),
-	blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-	from { width: 0 }
-	to { width: 70% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: black }
-}
-/*------ end of typewriter--------*/
 .about{
 	padding-top: 20px;
 	height: 100%;
@@ -104,7 +83,7 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: #d6e5ff;
+	background-color: #dbffe7;
 }
 
 .contact{
@@ -122,12 +101,13 @@ p{
 	background: blue;
 	margin-top: 0px;
 	width: 100%;
-	background-color: purple;
+	background-color:#E6E6FA; 
 }
 .twitch_content{
 	padding-top: 20px;
 	height: 100%;
 	margin-top: 0px;
+	margin-right:100px;
 	width: 100%;
 }
 
@@ -164,6 +144,15 @@ html {
 	margin: 30px;
 }
 
+
+.socials ul:hover li{
+	opacity:0.5;
+	transition: 0.5s;
+}
+
+.socials ul:hover li:hover{
+	opacity: 1;}
+
 .contacts ul{
 	margin: 0;
 	padding: 0;
@@ -173,13 +162,98 @@ html {
 	display:inline-block;
 }
 
-.socials ul:hover li{
-	opacity:0.5;
-	transition: 0.5s;
+.panel_image{
+	position: relative;
+	margin-left: 100px;
+	float: left;
 }
 
-.socials ul:hover li:hover{
-	opacity: 1;
+.mod_links{
+	position: absolute;
+	top:90px;
+	left:20px;
+}
+
+.mod_links li{
+	margin-top:5px;
+	margin-bottom: 0px;
+}
 
 
+.mod_links li span{
+	margin-left: -11px;
+}
+
+.panel_image .ant,
+.panel_image .frenzic,
+.panel_image .chip,
+.panel_image .veer{
+	color: #755ba3;
+}
+
+.panel_image .ant,
+.panel_image .frenzic,
+.panel_image .chip,
+.panel_image .veer{
+	color: #black;
+}
+.panel_image .ant:hover,
+.panel_image .frenzic:hover,
+.panel_image .chip:hover,
+.panel_image .veer:hover{
+	color: orange;
+}
+
+
+
+.sub_image{
+	position: relative;
+	margin-left: 620px;
+
+}
+
+.sub_links{
+	position: absolute;
+	top:90px;
+	left:20px;
+}
+
+.sub_links li{
+	margin-top:5px;
+	margin-bottom: 0px;
+	color: #755ba3 
+}
+
+
+.sub_links li span{
+	margin-left: -11px;
+}
+
+.sub_links li
+
+
+.sub_image .keith,
+.sub_image .musso,
+.sub_image .martin,
+.sub_image .veer{
+	color: #755ba3;
+}
+
+.sub_image .musso,
+.sub_image .keith,
+.sub_image .martin,
+.sub_image .veer{
+	color: #black;
+}
+.sub_image .musso:hover,
+.sub_image .keith:hover,
+.sub_image .martin:hover,
+.sub_image .veer:hover{
+	color: orange;
+}
+
+.content{
+	width: 100%;
+	overflow: hidden;
+}
 
