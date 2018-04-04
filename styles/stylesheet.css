@@ -177,33 +177,18 @@ html {
 .mod_links li{
 	margin-top:5px;
 	margin-bottom: 0px;
+	color: #755ba3 
 }
-
+.mod_links a{
+	color: #755ba3;
+}
 
 .mod_links li span{
 	margin-left: -11px;
 }
-
-.panel_image .ant,
-.panel_image .frenzic,
-.panel_image .chip,
-.panel_image .veer{
-	color: #755ba3;
-}
-
-.panel_image .ant,
-.panel_image .frenzic,
-.panel_image .chip,
-.panel_image .veer{
-	color: #black;
-}
-.panel_image .ant:hover,
-.panel_image .frenzic:hover,
-.panel_image .chip:hover,
-.panel_image .veer:hover{
+.mod_links a:hover{
 	color: orange;
 }
-
 
 
 .sub_image{
@@ -224,32 +209,16 @@ html {
 	color: #755ba3 
 }
 
+.sub_links a{
+	color: #755ba3;
+}
+.sub_links a:hover{
+	color: orange;
+}
 
 .sub_links li span{
 	margin-left: -11px;
-}
 
-.sub_links li
-
-
-.sub_image .keith,
-.sub_image .musso,
-.sub_image .martin,
-.sub_image .veer{
-	color: #755ba3;
-}
-
-.sub_image .musso,
-.sub_image .keith,
-.sub_image .martin,
-.sub_image .veer{
-	color: #black;
-}
-.sub_image .musso:hover,
-.sub_image .keith:hover,
-.sub_image .martin:hover,
-.sub_image .veer:hover{
-	color: orange;
 }
 
 .content{
