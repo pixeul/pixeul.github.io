@@ -164,7 +164,7 @@ html {
 
 .panel_image{
 	position: relative;
-	margin-left: 100px;
+	margin-left: 15%;
 	float: left;
 }
 
@@ -193,7 +193,7 @@ html {
 
 .sub_image{
 	position: relative;
-	margin-left: 620px;
+	margin-left: 55%;
 
 }
 
